@@ -11,7 +11,7 @@ export const Footer = () => {
         </div>
         <div className="flex flex-col justify-end items-end">
           <p>Contacto</p>
-          <div className="flex flex-row justify-end items-end text-subtext0">
+          <div className="flex flex-row justify-end items-end text-subtext0 divide-x-2">
             <a
               href="https://github.com/emirchus"
               target="_blank"
@@ -20,16 +20,7 @@ export const Footer = () => {
             >
               <MarkGithubIcon />
             </a>
-            <p className="mx-1">|</p>
-            <a
-              href="mailto:emirhassan.ali02@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-surface2"
-            >
-              <InboxIcon />
-            </a>
-            <p className="mx-1">|</p>
+
             <a
               href="https://www.linkedin.com/in/emir-ali-31aa711ab/"
               target="_blank"
