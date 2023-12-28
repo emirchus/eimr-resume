@@ -11,7 +11,7 @@ export const Footer = () => {
         </div>
         <div className="flex flex-col justify-end items-end">
           <p>Contacto</p>
-          <div className="flex flex-row justify-end items-end text-subtext0 divide-x-2 space-x-4">
+          <div className="flex flex-row justify-end items-end text-subtext0 divide-x-2 ">
             <a
               href="https://github.com/emirchus"
               target="_blank"
